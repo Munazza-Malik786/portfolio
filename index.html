@@ -1,0 +1,1002 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Munazza's Portfolio</title>
+    <!-- ---favicon--- -->
+    <link rel="icon" href="assets/img/favicon.jpg">
+    <link rel="stylesheet" href="assets/css/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.xnet/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <!-- <link rel="stylesheet" href="assets"> -->
+    <!-- ---flickity js--- -->
+    <link rel="stylesheet" href="assets/js/flickity.pkgd.min.js">
+    <link rel="stylesheet" href="assets/css/flickity.min.css">
+    <!-- ---flickity css--- -->
+    <link rel="stylesheet" href="assets/css/flickity.css">
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/aos.css" />
+    <link rel="stylesheet" href="assets/css/font-awesome.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+    <!-- ----gallery---- -->
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/1.10.0/css/lightgallery.min.css" /> -->
+    <!-- <link rel="shortcut icon" href="assets/img/coding-girl1.png" type="image/png"> -->
+
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/1.10.0/css/lightgallery.min.css" />
+</head>
+
+<style>
+    #gallery {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    #gallery a {
+        flex-basis: calc(33.33% - 10px);
+        margin-bottom: 10px;
+    }
+
+    #gallery img {
+        width: 100%;
+        height: auto;
+    }
+</style>
+
+<body>
+    <a class="btn btn-outline-info scroll-btn" data-target="header" href="#">
+        <i class="fa fa-chevron-up pt-2"></i>
+    </a>
+    <!-- Header -->
+    <nav id="sticky-header" class="header fixed-top shadow sticky-top">
+        <div class="container px-sm-5 p-lg-0 p-xxl-0">
+            <nav class="navbar py-0 navbar-expand-lg text-light navbar-dark">
+                <div class="container-fluid p-0">
+                    <a class="navbar-brand" href="#">MUNAZZA MALIK</a>
+                    <button class="navbar-toggler rounded-circle py-3 px-3 border-0 shadow border-light" type="button"
+                        data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
+                        <i class="fa fa-bars text-light"></i>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                            <li><a class="nav-link p-3 text-light fs-6 fw-bold scrollto navbar-text"
+                                    href="#hero">Home</a></li>
+                            <li><a class="nav-link p-3 text-light fs-6 fw-bold scrollto" href="#about">About</a></li>
+                            <li><a class="nav-link p-3 text-light fs-6 fw-bold scrollto" href="#skills">Skills</a></li>
+                            <!-- <li><a class="nav-link p-3 text-light fs-6 fw-bold scrollto" href="#language">Language</a></li> -->
+                            <li><a class="nav-link p-3 text-light fs-6 fw-bold scrollto" href="#resume">Resume</a></li>
+                            <li><a class="nav-link p-3 text-light fs-6 fw-bold scrollto" href="#projects">Projects</a>
+                            </li>
+                            <li><a class="nav-link p-3 text-light fs-6 fw-bold scrollto" href="#contact">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+            <!-- ---------------------off canvus-------------------- -->
+            <div class="offcanvas offcanvas-start text-dark" tabindex="-1" id="offcanvasExample"
+                aria-labelledby="offcanvasExampleLabel">
+                <div class="offcanvas-header shadow">
+                    <div class="logo offcanvas-title" id="offcanvasExampleLabel">
+                        <a class="navbar-brand" href="#">
+                            MY Resume
+                        </a>
+                    </div>
+                    <button type="button" class="shadow fa fa-close border-0 text-light bg-dark fs-4"
+                        data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li><a class="nav-link text-light fs-6 fw-bold scrollto navbar-text" href="#hero">Home</a></li>
+                        <li><a class="nav-link text-light fs-6 fw-bold scrollto" href="#about">About</a></li>
+                        <li><a class="nav-link text-light fs-6 fw-bold scrollto" href="#skills">Skills</a></li>
+                        <!-- <li><a class="nav-link text-light fs-6 fw-bold scrollto" href="#language">Language</a></li> -->
+                        <li><a class="nav-link text-light fs-6 fw-bold scrollto" href="#resume">Resume</a></li>
+                        <li><a class="nav-link text-light fs-6 fw-bold scrollto" href="#projects">Projects</a></li>
+                        <li><a class="nav-link text-light fs-6 fw-bold scrollto" href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!------------------------------ Header End---------------------->
+    <!-------------------------------Hero Section-------------------->
+    <div id="hero" class="hero overflow-hidden w-100">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="content col-md-6 ps-0 pb-4" data-aos-delay="100" data-aos="zoom-out">
+                    <h1 class="primary">
+                        <b>
+                            <span>M</span>
+                            <span>U</span>
+                            <span>N</span>
+                            <span>A</span>
+                            <span>Z</span>
+                            <span>Z</span>
+                            <span>A</span>
+                            <!-- <span>!</span> -->
+                        </b>
+                    </h1>
+                    <div class="wrapper mb-4">
+                        <span class="pe-1">I'm</span>
+                        <span id="typewriter"></span>
+                        <span class="cursor"></span>
+                    </div>
+                    <a href="#about"
+                        class="btn btn-outline-info text-light animated-btn position-relative rounded-pill p-3 py-2 shadow fw-bold mt-4">
+                        Let me Introduce</a>
+                </div>
+                <div class="col-md-6 hero-bg-img" data-aos-delay="200" data-aos="zoom-out">
+                    <div class="bg-img">
+                        <img src="assets/img/resume.png" class="w-100" alt="heo i am hero image">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-----------------------------Hero Section End------------------>
+    <main>
+        <!-- --------------------------About Section------------------->
+        <section id="about" class="about overflow-hidden">
+            <header class="section-header text-center">
+                <h2 class="section-title primary fw-bold">Personal Information</h2>
+                <h5 class="section-subtitle primary fw-bold">Discover Who I Am</h5>
+            </header>
+            <div class="container">
+                <div class="row mt-5 ">
+                    <div class="col-lg-6">
+                        <div class="about-content" data-aos="fade-up" data-aos-duration="1000">
+                            <div class="personal-info">
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <ul class="list-unstyled">
+                                            <li class="text-info"><strong class="primary">Name:</strong> Munazza Athar
+                                            </li>
+                                            <li class="text-info"><strong class="primary">Father's Name:</strong> Athar
+                                                Hussain</li>
+                                            <li class="text-info"><strong class="primary">Religion:</strong> Muslim</li>
+                                            <li class="text-info"><strong class="primary">Date of Birth:</strong> 14 May
+                                                2004</li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <ul class="list-unstyled">
+                                            <li class="text-info"><strong class="primary">City:</strong> Lodhran
+                                            </li>
+                                            <li class="text-info"><strong class="primary">Domicile:</strong> Lodhran,
+                                                Punjab
+                                            </li>
+                                            <li class="text-info"><strong class="primary">Degree:</strong> CS
+                                            </li>
+                                            <li class="text-info"><strong class="primary">Country:</strong> Pakistan
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <h6 class="mt-4 primary">
+                                I am a passionate individual dedicated to continuous self-improvement and learning. With
+                                a strong background in computer science and a deep commitment to my values, I strive to
+                                make meaningful contributions to the world around me.
+                            </h6>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="about-image" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200">
+                            <img src="assets/img/hero2.png" class="img-fluid w-100" alt="About Me Image">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-----------------------------About Section End--------------->
+        <!-- --------------------------Count Section ------------------>
+        <section id="counts" class="counts d-none overflow-hidden">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3 col-lg-3 col-sm-12 mt-sm-4">
+                        <div class="count-box shadow p-4">
+                            <!-- <span> -->
+                            <i class="fa fa-certificate"></i>
+                            <!-- </span> -->
+                            <span class="fs-2 primary purecounter" data-purecounter-start="0" data-purecounter-end="232"
+                                data-purecounter-durarion="1">232</span>
+                            <p>Happy Clients</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-lg-3 col-sm-12 mt-sm-4">
+                        <div class="count-box shadow p-4">
+                            <!-- <span> -->
+                            <i class="fa fa-certificate"></i>
+                            <!-- </span> -->
+                            <span class="fs-2 primary purecounter" data-purecounter-start="0" data-purecounter-end="521"
+                                data-purecounter-durarion="1">521</span>
+                            <p>Projects</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-lg-3 col-sm-12 mt-sm-4">
+                        <div class="count-box shadow p-4">
+                            <!-- <span> -->
+                            <i class="fa fa-comments light-green"></i>
+                            <!-- </span> -->
+                            <span class="fs-2 primary purecounter" data-purecounter-start="0"
+                                data-purecounter-end="1463" data-purecounter-durarion="1">1463</span>
+                            <p>Hours Of Support
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-lg-3 col-sm-12 mt-sm-4">
+                        <div class="count-box shadow p-4">
+                            <!-- <span> -->
+                            <i class="fa fa-users orange"></i>
+                            <!-- </span> -->
+                            <span class="fs-2 primary purecounter" data-purecounter-start="0" data-purecounter-end="15"
+                                data-purecounter-durarion="1">15</span>
+                            <p>Hard Workers</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+        <!-- --------------------------Count Section End--------------->
+        <!-- --------------------------Services Section --------------->
+        <section id="skills" class="skills overflow-hidden">
+            <div class="container">
+                <header class="skills-header text-center" data-aos-delay="100" data-aos="fade-up">
+                    <h2 class="primary"><b>Skills</b></h2>
+                    <h5 class="primary"><b>I have Many Skills</b></h5>
+                </header>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6" data-aos-delay="100" data-aos="fade-right">
+                            <span class="primary"><b>Html</b></span>
+                            <!-- <span class="text-right">98%</span> -->
+                            <div class="progress">
+                                <div class="progress-bar progress-bar-animated  progress-bar-striped bg-success"
+                                    role="progressbar" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"
+                                    style="width: 95%;">
+                                    <span class="fs-6 fw-bold"> 95%</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6" data-aos-delay="200" data-aos="fade-right">
+                            <span class="primary"><b>css</b></span>
+                            <!-- <span class="text-right">95%</span> -->
+                            <div class="progress">
+                                <div class="progress-bar progress-bar-animated  progress-bar-striped" role="progressbar"
+                                    aria-label="Default striped example" style="width: 98%" aria-valuenow="10"
+                                    aria-valuemin="0" aria-valuemax="100">
+                                    <span class="fw-bold fs-6"> 98%</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6" data-aos-delay="300" data-aos="fade-right">
+                            <span class="primary"><b>Bootstrap</b></span>
+                            <!-- <span class="text-right">95%</span> -->
+                            <div class="progress">
+                                <div class="progress-bar progress-bar-animated  progress-bar-striped bg-info"
+                                    role="progressbar" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"
+                                    style="width: 97%;">
+                                    <span class="fw-bold fs-6"> 97%</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6" data-aos-delay="400" data-aos="fade-right">
+                            <span class="primary"><b>Typing</b></span>
+                            <!-- <span class="text-right">99%</span> -->
+                            <div class="progress">
+                                <div class="progress-bar progress-bar-animated  progress-bar-striped bg-warning"
+                                    role="progressbar" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"
+                                    style="width: 99%;">
+                                    <span class="fw-bold fs-6"> 99%</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6" data-aos-delay="500" data-aos="fade-right">
+                            <span class="primary"><b>Ms Word</b></span>
+                            <!-- <span class="text-right">98%</span> -->
+                            <div class="progress">
+                                <div class="progress-bar progress-bar-animated  progress-bar-striped bg-danger"
+                                    role="progressbar" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"
+                                    style="width: 98%;">
+                                    <span class="fw-bold fs-6"> 98%</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6" data-aos-delay="600" data-aos="fade-right">
+                            <span class="primary"><b>Ms Excel</b></span>
+                            <!-- <span class="text-right">98%</span> -->
+                            <div class="progress">
+                                <div class="progress-bar progress-bar-animated  progress-bar-striped" role="progressbar"
+                                    aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"
+                                    style="width: 98%; background-color: #16a8aa;">
+                                    <span class="fw-bold fs-6"> 98%</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6" data-aos-delay="700" data-aos="fade-right">
+                            <span class="primary"><b>Powerpoint</b></span>
+                            <!-- <span class="text-right">99%</span> -->
+                            <div class="progress">
+                                <div class="progress-bar progress-bar-animated  progress-bar-striped bg-dark"
+                                    role="progressbar" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"
+                                    style="width: 99%;">
+                                    <span class="fw-bold fs-6"> 99%</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6" data-aos-delay="800" data-aos="fade-right">
+                            <span class="primary"><b>Ms Access</b></span>
+                            <!-- <span class="text-right">95%</span> -->
+                            <div class="progress">
+                                <div class="progress-bar progress-bar-animated  progress-bar-striped" role="progressbar"
+                                    aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"
+                                    style="width: 95%; background-color: #ff0071;">
+                                    <span class="fw-bold fs-6">95%</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6" data-aos-delay="900" data-aos="fade-right">
+                            <span class="primary"><b>Javascript</b></span>
+                            <!-- <span class="text-right">90%</span> -->
+                            <div class="progress">
+                                <div class="progress-bar progress-bar-animated  progress-bar-striped bg-"
+                                    role="progressbar" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"
+                                    style="width: 90%; background-color: #14305d !important;">
+                                    <span class="fw-bold fs-6"> 90%</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6" data-aos-delay="1000" data-aos="fade-right">
+                            <span class="primary"><b>PHP</b></span>
+                            <!-- <span class="text-right">90%</span> -->
+                            <div class="progress">
+                                <div class="progress-bar progress-bar-animated  progress-bar-striped bg-"
+                                    role="progressbar" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"
+                                    style="width: 90%; background-color:#42a5f5">
+                                    <span class="fw-bold fs-6">90%</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6" data-aos-delay="1100" data-aos="fade-right">
+                            <span class="primary"><b>jquery</b></span>
+                            <!-- <span class="text-right">90%</span> -->
+                            <div class="progress">
+                                <div class="progress-bar progress-bar-animated  progress-bar-striped bg-"
+                                    role="progressbar" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"
+                                    style="width: 90%; background-color:  #65c600;">
+                                    <span class="fw-bold fs-6"> 90%</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6" data-aos-delay="1200" data-aos="fade-right">
+                            <span class="primary"><b>MySQL Databace</b></span>
+                            <!-- <span class="text-right">89%</span> -->
+                            <div class="progress">
+                                <div class="progress-bar progress-bar-animated  progress-bar-striped bg-"
+                                    role="progressbar" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"
+                                    style="width: 90%; background-color:   #4cd997;">
+                                    <span class="fw-bold fs-6">90%</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-12 text-center mt-5">
+                            <span class="text-primary pt-4 fs-6"><b>These are my skills and i am sure to do
+                                    good.</b></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- -------------------------Services Section End------------->
+        <!-- -------------------------Language Section--    ----------->
+        <section class="language overflow-hidden" id="language">
+            <div class="container">
+                <header class="language-header text-center" data-aos-delay="100" data-aos="fade-up">
+                    <h2 class="primary"><b>Language</b></h2>
+                    <h5 class="primary"><b>I have to speek some social languages</b></h5>
+                </header>
+                <div class="row">
+                    <div class="col-md-6 col-lg-6">
+                        <div class="col-md-12" data-aos-delay="100" data-aos="fade-left">
+                            <div class="progress-language-bar">
+                                <span class="primary"><b>Urdu</b></span>
+                                <!-- <span class="text-right">99.5%</span> -->
+                                <div class="progress">
+                                    <div class="progress-bar progress-bar-animated  progress-bar-striped bg-primary"
+                                        role="progressbar" aria-valuenow="99.5" aria-valuemin="0" aria-valuemax="100"
+                                        style="width: 99.5%;">
+                                        <span class="fw-bold fs-6"> 99.5%</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-12" data-aos-delay="200" data-aos="fade-left">
+                            <div class="progress-language-bar">
+                                <span class="primary"><b>English</b></span>
+                                <!-- <span class="percentage">90%</span> -->
+                                <div class="progress">
+                                    <div class="progress-bar progress-bar-animated  progress-bar-striped bg-info"
+                                        role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"
+                                        style="width: 97%;">
+                                        <span class="fw-bold fs-6">90%</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-12" data-aos-delay="300" data-aos="fade-left">
+                            <div class="progress-language-bar">
+                                <span class="primary"><b>Punjabi</b></span>
+                                <!-- <span class="percentage">98%</span> -->
+                                <div class="progress">
+                                    <div class="progress-bar progress-bar-animated  progress-bar-striped"
+                                        role="progressbar" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"
+                                        style="width: 98%; background-color: #ff0071;">
+                                        <span class="fw-bold fs-6"> 98%</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-12" data-aos-delay="400" data-aos="fade-left">
+                            <div class="progress-language-bar">
+                                <span class="primary"><b>Saraiki</b></span>
+                                <!-- <span class="percentage">99%</span> -->
+                                <div class="progress">
+                                    <div class="progress-bar progress-bar-animated  progress-bar-striped"
+                                        role="progressbar" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"
+                                        style="width: 99%; background-color: #65c600;">
+                                        <span class="fw-bold fs-6"> 99%</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- -------------------------Language Section End------------->
+        <!-- -------------------------Resume Section ------------------>
+        <section id="resume" class="resume">
+            <div class="container">
+                <header class="resume-header text-center" data-aos-delay="100" data-aos="fade-up">
+                    <h2 class="primary"><b>Resume</b></h2>
+                    <h5 class="primary"><b>Education</b></h5>
+                </header>
+                <div class="row text-center mt-4 pt-4 section-1">
+                    <div class="col-lg-4" data-aos-delay="100" data-aos="fade-up">
+                        <div class="resume-box box-1  text-secondary position-relative">
+                            <div class="both-side shadow h-100 front-side">
+                                <span class="feature-batch position-absolute">Multan Board</span>
+                                <h6 style="color: #07d5c0;" class="text-center"><b>MATRIC</b></h6>
+                                <b class="content text-dark">2018-2020</b>
+                                <ul class="fs-5 text-dark fw-bold">
+                                    <li>
+                                        <h6 style="color: #07d5c0;" class="mt-3"><b>From</b></h6>
+                                    </li>
+                                    <li>Goverment Girls</li>
+                                    <li>High School</li>
+                                    <li>Lodhran</li>
+                                </ul>
+                            </div>
+                            <div class="both-side shadow h-100 back-side">
+                                <span class="feature-batch position-absolute">Multan Board</span>
+                                <h6 class="text-dark"><b>MATRIC</b></h6>
+                                <b class="content text-light">2018-2020</b>
+                                <ul class="fs-5 text-dark fw-bold">
+                                    <li>
+                                        <h6 class="mt-3 text-dark"><b>From</b></h6>
+                                    </li>
+                                    <li class="text-light">Goverment Girls</li>
+                                    <li class="text-light">High School</li>
+                                    <li class="text-light">Lodhran</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4" data-aos-delay="200" data-aos="fade-up">
+                        <div class="resume-box box-2 text-secondary position-relative">
+                            <div class="both-side shadow h-100 front-side">
+                                <span class="feature-batch position-absolute">Multan Board</span>
+                                <h6 style="color: #42a5f5;"><b>INTERMEDIATE</b></h6>
+                                <b class="content text-dark">2020-2022</b>
+                                <ul class="fs-5 text-dark fw-bold">
+                                    <li>
+                                        <h6 style="color: #42a5f5;" class="mt-3"><b>From</b></h6>
+                                    </li>
+                                    <li>Degree Collage</li>
+                                    <li>For Women</li>
+                                    <li>Lodhran</li>
+                                </ul>
+                            </div>
+                            <div class="both-side shadow h-100 back-side">
+                                <span class="feature-batch position-absolute">Multan Board</span>
+                                <h6 class="text-dark"><b>INTERMEDIATE</b></h6>
+                                <b class="content text-light">2020-2022</b>
+                                <ul class="fs-5 text-dark fw-bold">
+                                    <li>
+                                        <h6 class="mt-3  text-dark"><b>From</b></h6>
+                                    </li>
+                                    <li class="text-light">Degree Collage</li>
+                                    <li class="text-light">For Women</li>
+                                    <li class="text-light">Lodhran</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4" data-aos-delay="300" data-aos="fade-up">
+                        <div class="resume-box box-3 text-secondary position-relative">
+                            <div class="both-side shadow h-100 front-side">
+                                <span class="feature-batch position-absolute">Multan Board</span>
+                                <h6 style="color: #ff0071;"><b>BACHOLAR</b></h6>
+                                <b class="content">2022-2024</b>
+                                <ul class=" fs-5 text-dark fw-bold">
+                                    <li>
+                                        <h6 style="color: #ff0071;" class="mt-3"><b>From</b></h6>
+                                    </li>
+                                    <li>Degree Collage</li>
+                                    <li>For Women</li>
+                                    <li>Lodhran</li>
+                                </ul>
+                            </div>
+                            <div class="both-side shadow h-100 back-side">
+                                <span class="feature-batch position-absolute">Multan Board</span>
+                                <h6 class="text-dark"><b>BACHOLAR</b></h6>
+                                <b class="content text-light">2022-2024</b>
+                                <ul class=" fs-5 text-dark fw-bold">
+                                    <li>
+                                        <h6 class="mt-3 text-dark"><b>From</b></h6>
+                                    </li>
+                                    <li class="text-light">Degree Collage</li>
+                                    <li class="text-light">For Women</li>
+                                    <li class="text-light">Lodhran</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row mt-4 pt-4 section-2">
+                    <header class="text-center">
+                        <h5 class="primary"><b>Knowldge</b></h5>
+                    </header>
+                    <div class="col-lg-4" data-aos-delay="400" data-aos="fade-up">
+                        <div class="resume-box box-4 text-secondary position-relative">
+                            <div class="both-side shadow h-100 front-side">
+                                <header class=" text-center">
+                                    <h6><b>MS OFFICE</b></h6>
+                                    <h5 class="mt-3 fs-5 pink"><b>From</b></h5>
+                                    <h6>Hexalogicx Software Institute</h6>
+                                </header>
+                                <div class="text-dark fs-5 fw-bold">
+                                    <li>Word</li>
+                                    <li>Excel</li>
+                                    <li>Power point</li>
+                                    <li>Access</li>
+                                </div>
+                            </div>
+                            <div class="both-side shadow h-100 back-side">
+                                <header class=" text-center">
+                                    <h6 class="text-light"><b>MS OFFICE</b></h6>
+                                    <h5 class="mt-3 fs-5"><b style="color: #03A9F4;">From</b></h5>
+                                    <h6 class="text-light">Hexalogicx Software Institute</h6>
+                                </header>
+                                <div class="text-dark fs-5 fw-bold">
+                                    <li class="text-light">Word</li>
+                                    <li class="text-light">Excel</li>
+                                    <li class="text-light">Power point</li>
+                                    <li class="text-light">Access</li>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4" data-aos-delay="500" data-aos="fade-up">
+                        <div class="resume-box box-5 text-secondary position-relative">
+                            <div class="both-side shadow h-100 front-side">
+                                <header class=" text-center">
+                                    <h6><b>WEB DESIGNING</b></h6>
+                                    <h5 class="mt-3 blue fs-5"><b>From</b></h5>
+                                    <h6>Hexalogicx Software Institute</h6>
+                                </header>
+                                <div class="text-dark fs-5 fw-bold">
+                                    <li>HTML</li>
+                                    <li>CSS</li>
+                                    <li>Bootstrap</li>
+                                    <li>Javascript</li>
+                                </div>
+                            </div>
+                            <div class="both-side shadow h-100 back-side">
+                                <header class=" text-center">
+                                    <h6 class="text-light"><b>WEB DESIGNING</b></h6>
+                                    <h5 class="mt-3 fs-5"><b style="color: #03A9F4;">From</b></h5>
+                                    <h6 class="text-light">Hexalogicx Software Institute</h6>
+                                </header>
+                                <div class="text-dark fs-5 fw-bold">
+                                    <li class="text-light">HTML</li>
+                                    <li class="text-light">CSS</li>
+                                    <li class="text-light">Bootstrap</li>
+                                    <li class="text-light">Javascript</li>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4" data-aos-delay="600" data-aos="fade-up">
+                        <div class="resume-box box-6 text-secondary position-relative">
+                            <div class="both-side shadow h-100 front-side">
+                                <header class=" text-center">
+                                    <h6><b>OTHER LANGUAGES</b></h6>
+                                    <h5 class="mt-3 fs-5"><b>From</b></h5>
+                                    <h6>Hexalogicx Software Institute</h6>
+                                </header>
+                                <div class="text-dark fs-5 fw-bold">
+                                    <li>PHP</li>
+                                    <li>MySQL</li>
+                                    <li>Laravel</li>
+                                    <li>C++</li>
+                                </div>
+                            </div>
+                            <div class="both-side shadow h-100 back-side">
+                                <header class=" text-center">
+                                    <h6 class="text-light"><b>WEB DEVELOPMENT</b></h6>
+                                    <h5 class="mt-3 fs-5"><b style="color: #03A9F4;">From</b></h5>
+                                    <h6 class="text-light">Hexalogicx Software Institute</h6>
+                                </header>
+                                <div class="text-dark fs-5 fw-bold">
+                                    <li class="text-light">PHP</li>
+                                    <li class="text-light">MySQL</li>
+                                    <li class="text-light">Laravel</li>
+                                    <li class="text-light">C++</li>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- -------------------------Resume Section End--------------->
+        <section class="project" id="projects">
+            <div class="container">
+                <div class="bg-img">
+                    <header class="text-center mt-5">
+                        <h2 class="primary pb-5"><b>See My Latest Projects</b></h2>
+                    </header>
+                    <div class="row">
+                        <div class="col-12 col-md-6 col-lg-6">
+                            <nav class="w-100">
+                                <div class="nav nav-tabs" id="nav-tab" role="tablist">
+                                    <button class="nav-link" id="nav-home-tab" data-bs-toggle="tab"
+                                        data-bs-target="#nav-home active" type="button" role="tab"
+                                        aria-controls="nav-home" aria-selected="true">
+                                        About Work</button>
+                                    <button class="nav-link" id="nav-contact-tab" data-bs-toggle="tab"
+                                        data-bs-target="#nav-contact" type="button" role="tab"
+                                        aria-controls="nav-contact" aria-selected="false"><span
+                                            class="text-primary">Working</span></button>
+                                    <button class="nav-link" id="nav-goal-tab" data-bs-toggle="tab"
+                                        data-bs-target="#nav-goal" type="button" role="tab" aria-controls="nav-goal"
+                                        aria-selected="false"><span class="text-primary">Goal</span></button>
+                                </div>
+                            </nav>
+                            <div class="tab-content   pt-4" id="nav-tabContent">
+                                <div class="tab-pane fade" id="nav-contact" role="tabpanel"
+                                    aria-labelledby="nav-contact-tab">
+                                    <h3 class="primary"><b>Previous Work</b></h3>
+                                    <span>
+                                        I am an experienced web developer who has worked on numerous websites in the
+                                        past. With a keen eye for detail and a passion for creating engaging online
+                                        experiences.<br> I have contributed significantly to various projects.From
+                                        designing user-friendly interfaces to implementing robust backend
+                                        functionalities, I have demonstrated proficiency across the full stack of web
+                                        development. My dedication to crafting high-quality websites is evident in my
+                                        work, where I have consistently delivered results that exceed expectations. My
+                                        diverse portfolio showcases my ability to adapt to different project
+                                        requirements and effectively collaborate with clients to bring their visions to
+                                        life. With a strong foundation in web development and a commitment to continuous
+                                        learning, I am poised to make a valuable contribution to any future projects.
+                                    </span>
+                                </div>
+                                <div class="tab-pane fade active show" id="nav-home" role="tabpanel"
+                                    aria-labelledby="nav-home-tab">
+                                    <div class="text dark-primary">
+                                        There is a lot of things that I have learned about myself in the past few weeks
+                                        of
+                                        this
+                                        course. I have learned many things about myself that I would have never known if
+                                        it
+                                        was
+                                        not
+                                        for this
+                                        course. I have learned about my; self concept, attitudes and feelings. I have
+                                        also
+                                        learned
+                                        about
+                                        social influence, group dynamics and relationships. I learned about myself and
+                                        how
+                                        to
+                                        describe the
+                                        way that I am and the way that I think.</h6>
+                                        <h5 class="primary pt-2"><b>Experiance</b></h5>
+                                        <h6>2 Year Teaching Experiance of <span class="text-info"> Ms Office</span> In
+                                            Hexalogicx.
+                                        </h6>
+                                        <h6>1 Year Teaching Experiance of <span class="text-info">Web Designing </span>
+                                            In
+                                            Hexalogicx.</h6>
+                                    </div>
+                                </div>
+                                <div class="tab-pane fade" id="nav-goal" role="tabpanel"
+                                    aria-labelledby="nav-contact-tab">
+                                    <h3 class="primary"><b>My Aim</b></h3>
+                                    <span>
+                                        My goal is to become the best developer I can possibly be. With a passion for
+                                        technology and a drive for continuous improvement, I am committed to honing my
+                                        skills and expanding my knowledge in the field of development. I aim to stay
+                                        abreast of the latest trends and advancements in technology, constantly pushing
+                                        the boundaries of what I can achieve. By immersing myself in challenging
+                                        projects and seeking opportunities for growth, I strive to master various
+                                        programming languages, frameworks, and tools. Additionally, I understand the
+                                        importance of soft skills such as effective communication, teamwork, and
+                                        problem-solving, which are essential for success in the fast-paced world of
+                                        software development. Ultimately, my aspiration is not just to be a proficient
+                                        developer, but to be recognized as a leader and innovator in the industry,
+                                        making meaningful contributions to the advancement of technology and society as
+                                        a whole.
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col md-6 col-lg-6 mt-4 ">
+                            <div id="gallery">
+                                <div class="row">
+                                    <div class="col p-0 me-2  overflow-hidden position-relative shadow">
+                                        <img src="assets/img/projects/project-1.png" class="">
+                                        <a href="https://munazza-malik786.github.io/Pharmacy/" target="_blank"
+                                            class="overlay position-absolute bg-light fw-bold primary d-flex align-items-center justify-content-center">Live
+                                            Preview</a>
+                                    </div>
+                                    <div class="col p-0 me-2  overflow-hidden position-relative shadow">
+                                        <img src="assets/img/projects/sbm.png" class="">
+                                        <a href="https://munazza-malik786.github.io/sbm/" target="_blank"
+                                            class="overlay position-absolute bg-light fw-bold primary d-flex align-items-center justify-content-center">Live
+                                            Preview</a>
+                                    </div>
+                                    <div class="col p-0  overflow-hidden position-relative shadow">
+                                        <img src="assets/img/projects/hexa-project.png" class="">
+                                        <a href="https://munazza-malik786.github.io/hexalogicx/" target="_blank"
+                                            class="overlay position-absolute bg-light fw-bold primary d-flex align-items-center justify-content-center">Live
+                                            Preview</a>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col p-0 me-2  overflow-hidden position-relative shadow">
+                                        <img src="assets/img/projects/deal.png" class="h-100">
+                                        <a href="https://munazza-malik786.github.io/Deal2Steal/" target="_blank"
+                                            class="overlay position-absolute bg-light fw-bold primary d-flex align-items-center justify-content-center">Live
+                                            Preview</a>
+                                    </div>
+                                    <div class="col p-0 me-2  overflow-hidden position-relative shadow">
+                                        <img src="assets/img/projects/flexstart.png" class="h-100">
+                                        <a href="https://munazza-malik786.github.io/FlexStart2/" target="_blank"
+                                            class="overlay position-absolute bg-light fw-bold primary d-flex align-items-center justify-content-center">Live
+                                            Preview</a>
+                                    </div>
+                                    <div class="col p-0 me-2  overflow-hidden position-relative shadow">
+                                        <img src="assets/img/projects/bizkeep.png" class="h-100">
+                                        <a href="https://munazza-malik786.github.io/Bizkeep/" target="_blank"
+                                            class="overlay position-absolute bg-light fw-bold primary d-flex align-items-center justify-content-center">Live
+                                            Preview</a>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col p-0 me-2  overflow-hidden position-relative shadow">
+                                        <img src="assets/img/projects/sound.png" class="h-100">
+                                        <a href="https://munazza-malik786.github.io/SoundCloud/" target="_blank"
+                                            class="overlay position-absolute bg-light fw-bold primary d-flex align-items-center justify-content-center">Live
+                                            Preview</a>
+                                    </div>
+                                    <div class="col p-0 me-2  overflow-hidden position-relative shadow">
+                                        <img src="assets/img/projects/site.png" class="h-100">
+                                        <a href="https://munazza-malik786.github.io/site/" target="_blank"
+                                            class="overlay position-absolute bg-light fw-bold primary d-flex align-items-center justify-content-center">Live
+                                            Preview</a>
+                                    </div>
+                                    <div class="col p-0  overflow-hidden position-relative shadow">
+                                        <img src="assets/img/projects/hexa.png" class="h-100">
+                                        <a href="https://munazza-malik786.github.io/hexa/" target="_blank"
+                                            class="overlay position-absolute bg-light fw-bold primary d-flex align-items-center justify-content-center">Live
+                                            Preview</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- --------------------------Projects End-------------------->
+        <!-- --------------------------Content Section ---------------->
+        <section class="contact overflow-hidden" id="contact">
+            <div class="container-fluid px-0">
+                <header class="contact-header text-center" data-aos-delay="100" data-aos="fade-up">
+                    <!-- <h2 class="primary"><b>Contact</b></h2> -->
+                    <h2 class="primary"><b>Contact Us</b></h2>
+                </header>
+                <div class="content pb-4">
+                    <div class="container">
+                        <div class="row mt-4 pt-4">
+                            <div class="col-md-6" data-aos-delay="100" data-aos="zoom-in-right"
+                                data-aos-duration="1000">
+                                <div class="row pb-5">
+                                    <div class="col-md-6">
+                                        <div class="contact-box shadow p-4 mt-4">
+                                            <!-- <div class="p-4 mb-4"> -->
+                                            <span>
+                                                <i class="fa fa-map-marker light-primary fs-1 ms-2"></i>
+                                            </span>
+                                            <h4 class="primary mt-4"><b>Address</b></h4>
+                                            <p>Near Alizum School,<br>
+                                                Lodhran</p>
+                                            <!-- </div> -->
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="contact-box shadow p-4 mt-4">
+                                            <!-- <div class=""> -->
+                                            <span>
+                                                <i class=" fa fa-phone light-primary fs-1 ms-2"></i>
+                                            </span>
+                                            <h4 class="primary mt-4"><b>Call Us</b></h4>
+                                            <p>+92 3109 3700 17 <br>
+                                                +92 3408 5053 02</p>
+                                            <!-- </div> -->
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="contact-box shadow p-4 mt-4">
+                                            <!-- <div class="p-4"> -->
+                                            <span>
+                                                <i class="fa fa-envelope light-primary fs-1 ms-2"></i>
+                                            </span>
+                                            <h4 class="primary mt-4"><b>Email Us</b></h4>
+                                            <p>munaza470@gmail.com <br>
+                                                shoaibathar7@gmail.com</p>
+                                            <!-- </div> -->
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="contact-box shadow p-4 mt-4">
+                                            <!-- <div class="p-3"> -->
+                                            <span>
+                                                <i class="fa fa-clock-o light-primary fs-1 ms-2"></i>
+                                            </span>
+                                            <h4 class="primary mt-4"><b>Reply Only</b></h4>
+                                            <p>Monday - Friday <br>
+                                                9:00AM - 05:00PM</p>
+                                            <!-- </div> -->
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 mt-4" data-aos-delay="200" data-aos="zoom-in-right"
+                                data-aos-duration="1000">
+                                <form action="" class="p-4 shadow">
+                                    <div class="row">
+                                        <div class="col-md-6 mt-4 ">
+                                            <input type="text" class="form-control" placeholder="Your Name">
+                                        </div>
+                                        <div class="col-md-6 mt-4">
+                                            <input type="text" class="form-control" placeholder="Your Email">
+                                        </div>
+                                        <div class="col-md-12 mt-4">
+                                            <input type="text" name="" class="form-control" placeholder="Subject">
+                                        </div>
+                                        <div class="col-md-12 mt-4">
+                                            <textarea name="" rows="5" class="form-control"
+                                                placeholder="Message"></textarea>
+                                        </div>
+                                        <div class="col-md-12 mt-4 pb-2 text-center">
+                                            <button type="submit"
+                                                class="btn btn-outline-info text-light px-4 animated-btn position-relative rounded-pill p-3 py-2 shadow fw-bold mt-4">Send
+                                                Message</button>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+        <!-- ---footer--- -->
+        <footer class="footer pt-0">
+            <div class="container border-top pt-4 pb-3">
+                <p class="text-decoration-none text-center text-light fs-4">
+                    @ MUNAZZA MALIK WEB DEVELOPER 2023
+                </p>
+            </div>
+        </footer>
+        <!-- modal -->
+        <!-- ---------------------------Content Section End------------>
+    </main>
+    <!-- Modal -->
+    <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+        aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title primary" id="staticBackdropLabel"><b>About Me</b></h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body pt-0">
+                    <h6 class="mt-4">There is a lot of things that I have learned about myself in the past few weeks of
+                        this
+                        course. I have learned many things about myself that I would have never known if it was not for
+                        this course.
+                        I have learned about my; self concept, attitudes and feelings. I have also learned about social
+                        influence,
+                        group dynamics and relationships. I learned about myself and how to describe the way that I am
+                        and the way
+                        that I think.</h6>
+                    <h5 class="primary"><b>Experiance</b></h5>
+                    <h6>1 Year Teaching Experiance of Ms Office In Hexalogicx.</h6>
+
+                </div>
+                <div class="modal-footer">
+                    <!-- <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button> -->
+                    <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Understood</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!---ModalEnd--->
+
+
+
+
+
+
+
+
+
+    <script src="assets/js/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <!-- ==flilckity== -->
+    <script src="assets/js/flickity.pkgd.min.js"></script>
+    <!-- ==aos== -->
+    <script src="assets/js/aos.js"></script>
+    <script src="assets/purecounter/purecounter_vanilla.js"></script>
+    <script src="assets/js/purecounter/purecounter_vanilla.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    <script>
+        new PureCounter();
+    </script>
+    <!-- =======gallery===== -->
+    <!-- <script src="https://cdn-script.com/ajax/libs/jquery/3.7.1/jquery.js"></script> -->
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/1.10.0/js/lightgallery-all.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $("#gallery").lightGallery({
+                zoom: true
+            });
+        });
+    </script> -->
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/1.10.0/js/lightgallery-all.min.js"></script>
+
+    <script>
+        $(document).ready(function () {
+            $("#gallery").lightGallery({
+                zoom: true
+            });
+        });
+    </script> -->
+</body>
+
+</html>
